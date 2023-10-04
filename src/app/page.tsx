@@ -197,7 +197,7 @@ export default function Page() {
   return (
     <>
       <GridPattern
-            className="absolute inset-x-0 -top-14 z-50 h-[1000px] w-full fill-neutral-50 stroke-neutral-950/5"
+            className="absolute inset-x-0 -top-14 -z-10 h-[1000px] w-full fill-neutral-50 stroke-neutral-950/5 [mask-image:linear-gradient(to_bottom_right,white_40%,transparent_50%)]"
             yOffset={-96}
             interactive
           />
@@ -535,7 +535,7 @@ export default function Page() {
                 Summer styles are finally here
               </h1>
               <p className="mt-4 text-xl text-gray-500">
-                This year, our new summer collection will shelter you from the harsh elements of a world that doesn't
+                This year, our new summer collection will shelter you from the harsh elements of a world that doesnt
                 care if you live or die.
               </p>
             </div>
@@ -730,8 +730,8 @@ export default function Page() {
                 Long-term thinking
               </h2>
               <p className="mt-3 text-xl text-white">
-                We're committed to responsible, sustainable, and ethical manufacturing. Our small-scale approach allows
-                us to focus on quality and reduce our impact. We're doing our best to delay the inevitable heat-death of
+                Were committed to responsible, sustainable, and ethical manufacturing. Our small-scale approach allows
+                us to focus on quality and reduce our impact. Were doing our best to delay the inevitable heat-death of
                 the universe.
               </p>
               <a
