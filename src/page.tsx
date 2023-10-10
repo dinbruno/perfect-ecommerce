@@ -189,7 +189,7 @@ function classNames(...classes: any) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function Page() {
+export default function Home() {
 
   const [open, setOpen] = useState(false)
 
